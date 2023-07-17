@@ -5,12 +5,10 @@ body{
     background-color: rgb(218, 215, 215);
 }
 .container{
-    margin: auto;
-    width: 20%;
-    padding: 100px;
+    width: 100%;
     background-color: rgba(139, 0, 0, 0.7);
-    border-radius: 3px;
-    margin-top: 35px;
+    border-radius: 6px;
+    margin-top: 140px;
 }
 .container h1{
     font-weight: 800;
@@ -20,12 +18,12 @@ body{
     text-decoration: wavy;
     text-align: center;
 }
-ul{
+.recipes{
     list-style: none;
     display: grid;
     justify-content: center;
 }
-button{
+.recipes button{
     font-size: 25px;
     border-radius: 6px;
     margin-bottom: 10px;
@@ -34,24 +32,33 @@ button{
     vertical-align: middle;
     padding: 0px 25px;
 }
-button:hover{
+.recipes button:hover{
     border-radius: 6px;
     background-color: rgb(241, 238, 5);
     color: rgb(255, 255, 255);
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (min-width: 481px) {
     .container{
-    width: 80px;
+    width: 80%;
     border-radius: 3px;
-    margin: 100px 0px;
+    margin: auto;
+    margin-top: 140px;
+    padding-bottom: 50px;
 }
     .container h1{
         font-size: 30px;
+        padding: 50px;
     }
     button{
         font-size: 15px;
         margin-bottom: 13px;
         border: 1px solid gray;
         padding: 0px 35px;
+    }
+}
+@media screen and (min-width: 8301px){
+    .container{
+        width: 30%;
+        margin: auto;
     }
 }
