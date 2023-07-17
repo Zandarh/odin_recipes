@@ -3,7 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #fffafa;
+    background-color: rgb(218, 215, 215);;
 }
 .container{
     width: 40%;
@@ -23,6 +23,7 @@ h1{
 }
 img{
     width: 100%;
+    height: auto;
 }
 .content{
     text-align: left;
